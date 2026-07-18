@@ -14,10 +14,10 @@ function enviarDatos() {
 
     let datos = generarSensor();
     
-   console.log(datos)
+   //console.log(datos)
    
          
-    fetch("/recibir.php", {method: 'POST', body: JSON.stringify(datos)})
+    fetch("http://localhost/sensor/recibir.php", {method: 'POST', body: JSON.stringify(datos)})
       
     .then(response=>response.json())
         .then((data)=>{
