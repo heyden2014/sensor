@@ -17,7 +17,7 @@ function enviarDatos() {
    console.log(datos)
    
          
-    fetch("https://localhost/recibir.php", {method: 'POST', body: JSON.stringify(datos)})
+    fetch("http://localhost/sensor/", {method: 'POST', body: JSON.stringify(datos)})
       
     .then(response=>response.json())
         .then((data)=>{
