@@ -1,3 +1,3 @@
 {
-  "rewrites": [{ "source": "/(.*)", "destination": "/sensor" }]
+  "rewrites": [{ "source": "/(.*)", "destination": "/eje.php" }]
 }
