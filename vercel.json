@@ -1,7 +1,7 @@
 {
   "functions":{
-    "sensor/**/*.php": {"runtime": "vercel-php@0.6.0"},
+    "/*.php": {"runtime": "vercel-php@0.6.0"},
   },
-  "rewrites": [{ "source": "/(.*)", "destination": "/eje.php" }],
+  "rewrites": [{ "source": "/(.*)", "destination": "eje.php" }],
  
 }
