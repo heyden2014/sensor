@@ -3,6 +3,6 @@
        "sensor/**/*.php": {runtime: "vercel-php@0.6.0" },
   },
   "routes": [
-      { src: "/(.*)",dest: "/sensor/recibir.php" }
+      { src: "/(.*)",dest: "/recibir.php" }
   ],
 }
