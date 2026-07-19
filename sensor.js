@@ -17,7 +17,7 @@ function enviarDatos() {
    //console.log(datos)
    
          
-    fetch("sensor-gilt-seven.vercel.app/sensor/recibir.php", {method: 'POST', body: JSON.stringify(datos)})
+    fetch("sensor-gilt-seven.vercel.app/recibir.php", {method: 'POST', body: JSON.stringify(datos)})
       
     .then(response=>response.json())
         .then((data)=>{
