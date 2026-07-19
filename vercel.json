@@ -1,8 +1,3 @@
 {
-   "functions":{
-       "sensor/**/*.php": {runtime: "vercel-php@0.6.0" },
-  },
-  "routes": [
-      { src: "/(.*)",dest: "/recibir.php" }
-  ],
+  "rewrites": [{ "source": "/(.*)", "destination": "/index.html" }]
 }
