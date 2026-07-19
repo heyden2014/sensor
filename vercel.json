@@ -1,4 +1,6 @@
 {
+  "functions":{
+  }
   "rewrites": [{ "source": "/(.*)", "destination": "/index.html" }],
   "routes": [
     {src: "/(.*)", "destination": "/recibir.php"}
