@@ -7,7 +7,7 @@
   "routes": [
     {
       "source": "/(.*)",
-      "destination": "/eje.php"
+      "destination": "/index.html"
     }
   ]
 }
